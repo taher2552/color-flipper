@@ -1,8 +1,22 @@
-.button{
+/* .button{
     position: absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+} */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 #btn1, #btn2{
@@ -12,9 +26,10 @@
     outline: none;
     font-size: 20px;
     cursor: pointer;
+    width:350px;
 
 }
 
 #btn1{
-    margin-right: 10px;
+    margin-bottom: 10px;
 }
