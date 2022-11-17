@@ -2,13 +2,13 @@
     position: absolute;
     top:50%;
     left:50%;
-    transform:translate(-50%,-50%)
+    transform:translate(-50%,-50%);
 }
 
 #btn1, #btn2{
     padding:15px;
     border-radius: 10px;
-    border: none;
+    border: 1px solid green;
     outline: none;
     font-size: 20px;
     cursor: pointer;
@@ -17,8 +17,4 @@
 
 #btn1{
     margin-right: 10px;
-}
-
-body{
-    background: rgb(241, 160, 160);
 }
